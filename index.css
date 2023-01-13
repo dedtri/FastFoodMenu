@@ -1,0 +1,34 @@
+/* Targets the entire site */
+body {
+    margin: 20px;
+}
+
+/* Targets all divs */
+div {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* Targets all buttons in a div */
+div button {
+    margin-left: 5px;
+}
+
+#order-title {
+    margin-top: 40px;
+}
+
+#menu {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#order-nummer {
+    text-align: right;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

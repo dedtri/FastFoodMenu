@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Mcdonalds App</title>
+</head>
+<body>
+    <div>
+        <p id="wallet"></p>
+        <div id="menu">Menu: 
+    <select onchange="renderCategory()" name="category" id="categorySelect">
+        <option value="hovedret">Hovedretter</option>
+        <option value="drikkevarer">Drikkevarer</option>
+        <option value="tilbehør">Tilbehør</option>
+        <option value="dessert">Dessert</option>
+      </select>
+    </div>
+    </div>
+
+    <div id="item-list"></div>
+    <div id="order-title">ORDER: <button onclick="clearCart()">Annuler Bestillinger</button></div>
+    <div id="order-list"></div>
+    <div id="footer">
+    <div id="todays-total"></div>
+    <div id="order-nummer"></div>
+    </div>
+    <script src="itemlist.js"></script>
+    <script src="items.js"></script>  
+</body>
+</html>

@@ -1,0 +1,73 @@
+var items = [{
+    title: 'Cheeseburger',
+    price: 13,
+    id: '0',
+    category: 'hovedret',
+    volume: 0
+}, {
+    title: 'Filet-O-Fish',
+    price: 20,
+    id: '1',
+    category: 'hovedret',
+    volume: 0
+}, {
+    title: 'Hamburger',
+    price: 10,
+    id: '2',
+    category: 'hovedret',
+    volume: 0
+}, {
+    title: 'Cola',
+    price: 10,
+    id: '3',
+    category: 'drikkevarer',
+    volume: 0
+}, {
+    title: 'Fanta',
+    price: 10,
+    id: '4',
+    category: 'drikkevarer',
+    volume: 0
+}, {
+    title: 'Faxekondi',
+    price: 10,
+    id: '5',
+    category: 'drikkevarer',
+    volume: 0
+}, {
+    title: 'Donut',
+    price: 10,
+    id: '6',
+    category: 'dessert',
+    volume: 0
+}, {
+    title: 'Gulerodskage',
+    price: 12,
+    id: '7',
+    category: 'dessert',
+    volume: 0
+}, {
+    title: 'Muffins',
+    price: 20,
+    id: '8',
+    category: 'dessert',
+    volume: 0
+}, {
+    title: 'Ketchup',
+    price: 5,
+    id: '9',
+    category: 'tilbehør',
+    volume: 0
+}, {
+    title: 'Remulade',
+    price: 5,
+    id: '10',
+    category: 'tilbehør',
+    volume: 0
+}, {
+    title: 'Mayo',
+    price: 5,
+    id: '11',
+    category: 'tilbehør',
+    volume: 0
+}];
